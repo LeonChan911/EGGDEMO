@@ -1,6 +1,8 @@
 # eggdemo
-
-# 依赖mongoDB v4.0.3
+# egg 学习手册
+https://eggjs.org/zh-cn/basics/objects.html
+# 依赖mongoDB 
+v4.0.3
 
 
 ## QuickStart
