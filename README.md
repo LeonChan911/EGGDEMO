@@ -1,10 +1,12 @@
 # eggdemo
 # egg 学习手册
 https://eggjs.org/zh-cn/basics/objects.html
+
 # 依赖mongoDB 
 v4.0.3
 
-
+#mongoDB 学习手册
+http://www.runoob.com/mongodb/mongodb-tutorial.html
 ## QuickStart
 
 <!-- add docs here for user -->
