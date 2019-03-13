@@ -1,7 +1,14 @@
 # eggdemo
 制作了两个api
 一.用户 增删改查（分页、模糊）
+api/user?name=chenyin
+api/userdelete?id=5c877b9c34b82f36faa024b2
+api/userchange?name=cy&id=5c877915292c7f3592c4f0c0
+api/userfind?pageindex=1&pagesize=10&query=c
+
 二.帖子 增 查（根据uid、分页）
+api/post?uid=5c877b6ea43f6a36d6ef53b9&post_title=帖子标题&post_content=帖子内容
+api/postfind?uid=5c877b6ea43f6a36d6ef53b9&pageindex=1&pagesize=10
 
 # egg 学习手册
 https://eggjs.org/zh-cn/basics/objects.html
