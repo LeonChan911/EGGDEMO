@@ -1,4 +1,8 @@
 # eggdemo
+制作了两个api
+一.用户 增删改查（分页、模糊）
+二.帖子 增 查（根据uid、分页）
+
 # egg 学习手册
 https://eggjs.org/zh-cn/basics/objects.html
 
