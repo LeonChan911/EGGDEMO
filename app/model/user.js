@@ -9,7 +9,7 @@ module.exports = app => {
       type: String,
       unique: false,
       required: true,
-    },
+    }
   });
   return mongoose.model('User', UserSchema);
 };

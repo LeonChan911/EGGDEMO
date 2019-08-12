@@ -5,7 +5,9 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
-    ctx.body = 'demo';
+    const relativeTime =  ctx.helper.relativeTime(1565528419);
+    ctx.logger.info('时间：'+relativeTime)
+    ctx.body = `<a>demo1${relativeTime}</a>`;
   }
 }
 

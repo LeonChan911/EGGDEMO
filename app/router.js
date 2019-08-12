@@ -13,4 +13,5 @@ module.exports = app => {
 
   router.get('/api/post',controller.api.post.index)
   router.get('/api/postfind',controller.api.post.find)
+  
 };
